@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+/* fonts MaisonsNeue */
+@font-face {
+  font-family: "FiraSans-Book";
+  src: url("fonts/fira-sans/FiraSans-Book.otf") format("otf");
+  font-display: swap;
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "FiraSans-Bold";
+  src: url("fonts/fira-sans/FiraSans-Bold.otf") format("otf");
+  font-display: swap;
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "FiraSans-SemiBold";
+  src: url("fonts/fira-sans/FiraSans-SemiBold.otf") format("otf");
+  font-display: swap;
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "FiraSans-Ultra";
+  src: url("fonts/fira-sans/FiraSans-Ultra.otf") format("otf");
+  font-display: swap;
+  font-weight: normal;
+  font-style: normal;
+}

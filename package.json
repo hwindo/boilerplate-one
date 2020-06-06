@@ -1,0 +1,35 @@
+{
+  "name": "boilerplate-one",
+  "version": "1.0.0",
+  "description": "Boilerplate for Static Website",
+  "main": "gulpfile.js",
+  "scripts": {
+    "build-css": "sass src/styles.scss public/static/css/styles.css",
+    "babel": "babel ",
+    "build": "gulp build",
+    "start": "gulp"
+  },
+  "keywords": [],
+  "author": "windo",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.13.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.6",
+    "autoprefixer": "^9.8.0",
+    "browser-sync": "^2.26.7",
+    "cssnano": "^4.1.10",
+    "gulp": "^4.0.2",
+    "gulp-mustache": "^5.0.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-terser": "^1.2.0",
+    "postcss-preset-env": "^6.7.0",
+    "webpack": "^4.43.0",
+    "webpack-dev-middleware": "^3.7.2",
+    "webpack-hot-middleware": "^2.25.0"
+  }
+}

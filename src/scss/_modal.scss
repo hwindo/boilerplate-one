@@ -1,0 +1,36 @@
+.modal-dialog {
+  max-width: 83vw;
+  @include media-breakpoint-up(lg) {
+    max-width: 62vw;
+  }
+  margin: 0 auto;
+}
+
+.modal-content,
+.modal-body {
+  border-radius: 0.5rem;
+}
+
+.modal-body {
+  padding: 0;
+  border-right: 1rem;
+  overflow: hidden;
+}
+
+// our own x
+.modal__x {
+  position: absolute;
+  right: 0;
+  color: white;
+  font-size: 1rem;
+  line-height: 1rem;
+  z-index: 10;
+  border-radius: 0 0 0 25%;
+  background-color: var(--color-blue900);
+  padding: .75rem;
+  opacity: .3;
+  &:hover {
+    opacity: .6;
+    color: white;
+  }
+}

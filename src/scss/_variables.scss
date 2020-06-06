@@ -1,0 +1,84 @@
+:root {
+  // design start with full HD resolution 1920 x 1080;
+  //--base-font-size: 25px;
+  --base-font-size: calc(100vh / 47.2);
+  .container-xl, .container-lg, .container-md, .container-sm, .container {
+    .col,
+    [class*="col-"] {
+      padding-right: 0;
+      padding-left: 0;
+    }
+  }
+
+  @media screen and (min-width: 1681px) {
+    .container-xl, .container-lg, .container-md, .container-sm, .container {
+      max-width: 1740px;
+    }
+  }
+
+  @media screen and (max-width: 1680px) {
+    .container-xl, .container-lg, .container-md, .container-sm, .container {
+      max-width: calc(100vw - 4.5vw);
+    }
+  }
+
+  @include media-breakpoint-down(sm) {
+    .container-xl, .container-lg, .container-md, .container-sm, .container {
+      max-width: 302px;
+    }
+    .form__subtitle {
+      letter-spacing: 0;
+    }
+  }
+
+  @media screen and (max-device-aspect-ratio: 16/9){
+    --base-font-size: calc(100vh / 43.2);
+  }
+
+  @media screen and (max-device-aspect-ratio: 16/10){
+    --base-font-size: calc(100vh / 47.2);
+  }
+
+  @media screen and (max-device-aspect-ratio: 4/3) {
+    --base-font-size: calc(100vh / 53.2);
+  }
+
+  @media screen and (width: 1024px) and (height: 768px) {
+    .signup__cover img {
+      height: auto;
+    }
+    .signup--2 .signup__cover img {
+      height: 100%;
+    }
+  }
+
+  @media screen and (width: 800px) and (height: 600px) {
+    .signup__cover img {
+      height: auto;
+    }
+    .signup--2 .signup__cover img {
+      height: 100%;
+    }
+  }
+
+
+
+  --color-body: var(--color-blue900);
+  --color-blue900: #253846;
+  --color-grey100: #cdcdcd;
+  --color-grey200: #d7d7d7;
+  --color-grey400: #babcba;
+  --color-green800: #8ec255;
+  --color-green900: #94c055;
+  --font-firasans-Bold: "FiraSans-Bold", sans-serif;
+  --font-firasans-SemiBold: "FiraSans-SemiBold", sans-serif;
+  --font-firasans-Ultra: "FiraSans-Ultra", sans-serif;
+  --font-firasans-Book: "FiraSans-Book", sans-serif;
+
+  --font-size-title: 1.8rem; // 45px;
+  --font-size-subtitle: 1.4rem; // 35px;
+
+  --layout-content-toppadding: 3.2rem; // 80px;
+  --layout-footer-height: 3.4rem; // 85px
+
+}

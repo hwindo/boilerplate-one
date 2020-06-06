@@ -1,0 +1,111 @@
+@include media-breakpoint-down(sm) {
+
+  .content {
+    padding-top: 56px;
+  }
+  .video {
+    min-height: 460px;
+  }
+  .logo {
+    width: 158px;
+  }
+  .signup {
+    &__cover {
+      picture {
+        width: 100%;
+        height: 460px;
+      }
+      img {
+        object-fit: cover;
+      }
+      height: auto;
+    }
+
+    &__play {
+      padding-bottom: 0;
+
+      img {
+        width: 57px;
+      }
+    }
+
+    &__content {
+      background-color: #C1C1C0;
+    }
+
+    &__footer {
+      position: relative;
+      min-height: 144px;
+      padding-top: 22px;
+    }
+
+    &__footer-title {
+      font-size: 26px;
+      margin-bottom: 26px;
+    }
+  }
+
+  .form, .signup--2 .form {
+    padding-top: 26px;
+    min-height: unset;
+    padding-bottom: 54px;
+
+    &__header {
+      margin-bottom: 16px;
+    }
+
+    &__title {
+      font-size: 24px;
+      line-height: 28px;
+      margin-bottom: 8px;
+    }
+
+    &__subtitle {
+      font-size: 16px;
+      line-height: 20px;
+    }
+
+    label, input, select {
+      font-size: 16px;
+    }
+
+    input, select, &__select-triangle {
+      height: 41px;
+    }
+
+    form {
+      width: 100%;
+    }
+
+    .form-group {
+      margin-bottom: 16px;
+      &:nth-child(3) {
+        margin-bottom: 42px;
+      }
+    }
+
+    &__submit, input[type=submit] {
+      font-size: 20px;
+      line-height: 30px;
+      height: 51px;
+      width: 100% !important;
+    }
+  }
+
+  .social {
+    font-size: (25/25)+rem;
+    img {
+      height: 24px;
+      width: auto;
+    }
+    &:hover {
+      color: white;
+    }
+    &__text {
+      display: inline-block;
+      margin-right: (50/25)+rem;
+    }
+  }
+
+}
+

@@ -1,0 +1,12 @@
+.social {
+  color: white;
+  font-family: var(--font-firasans-SemiBold);
+  font-size: (25/25)+rem;
+  &:hover {
+    color: white;
+  }
+  &__text {
+    display: inline-block;
+    margin-right: (50/25)+rem;
+  }
+}
